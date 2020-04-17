@@ -1,0 +1,40 @@
+baseURL = "https://michelebono.it"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+title = "Michele Bono"
+
+[author]
+  name = "Michele Bono"
+
+[languages]
+  [languages.en]
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    keywords = ""
+    homeSubtitle = "Network Engineer || IT Manager || Amateur android dev"
+    title = "Michele Bono"
+
+  [languages.en.params.logo]
+    logoHomeLink = "/"
+    logoText = "michelebono.it"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  defaultTheme = "dark"
+
+  disableReadOtherPosts = true
+
+  description = "Michele Bono's website"
+  keywords = "homepage, blog"
+  images = [""]
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/Miccia94"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/michelebono"
